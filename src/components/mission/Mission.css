@@ -1,0 +1,180 @@
+:root {
+    --margin-base: 45px;
+}
+
+.mission {
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission > .title {
+    margin-top: 0;
+    position: relative;
+    top: 15px;
+}
+
+.mission > .title > h1 {
+    font-size: 42px;
+}
+
+.mission > .goals > section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+/************************************ image animation ************************************/
+
+.mission > .goals > section > .pic {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#wfmp {
+    margin-right: var(--margin-base);
+}
+
+#wsmp {
+    margin-left: var(--margin-base);
+}
+
+#wtmp {
+    margin-right: var(--margin-base);
+}
+
+.mission > .goals > section > .pic::before {
+    content: '';
+    position: absolute;
+    inset: -10px 80px;
+    transition: 0.5s;
+    animation: miss linear infinite;
+    animation-duration: 1s;
+}
+
+#wfmp::before {
+    background: linear-gradient(315deg, #ff2ae0, #645bf6);
+}
+
+#wsmp::before {
+    background: linear-gradient(315deg, #ffec61, #f321d7);
+}
+
+#wtmp::before {
+    background: linear-gradient(315deg, #24ff72, #9a4eff);
+}
+
+.mission > .goals > section > .pic:hover::before {
+    inset: -20px 0;
+}
+
+@keyframes miss {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+#wfmp::after {
+    background: url('../../assets/pics/mission2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wsmp::after {
+    background: url('../../assets/pics/mission4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wtmp::after {
+    background: url('../../assets/pics/mission6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission > .goals > section > .pic::after {
+    content: '';
+    position: absolute;
+    inset: 6px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.mission > .goals > section > .pic > .content {
+    position: absolute;
+    inset: 6px;
+    border: 6px solid rgb(255, 255, 255);
+    z-index: 4;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.mission > .goals > section > .pic > .content > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+}
+
+#wfmp:hover #fmp {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+#wsmp:hover #smp {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+#wtmp:hover #tmp {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+/************************************** card design ****************************************/
+
+.mission > .goals > section > .card {
+    position: relative;
+    width: 720px;
+    height: 250px;
+    margin: 10px auto;
+    background-color: blue;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 0 15px 0 #adadad, inset -15px 0 0 rgba(255, 255, 255, 0.25), 35px 45px 0 rgba(0, 0, 0, 0.15);
+}
+
+.mission > .goals > section > .card::before {
+    content: '';
+    position: absolute;
+    top: -120%;
+    left: 37.5%;
+    width: 140px;
+    height: 730px;
+    background: linear-gradient(90deg,transparent, rgba(255,255,255,0.4));
+    transform: rotate(75deg);
+    overflow: hidden;
+    filter: blur(5px);
+}
+
+.mission > .goals > section > .a {
+    background: linear-gradient(to bottom, #ff2ae0, #645bf6);
+}
+
+.mission > .goals > section > .b {
+    background: linear-gradient(to bottom, #ffec61, #f321d7);
+}
+
+.mission > .goals > section > .c {
+    background: linear-gradient(to bottom, #24ff72, #9a4eff);
+}

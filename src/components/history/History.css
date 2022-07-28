@@ -1,0 +1,33 @@
+.history {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    position: relative;
+}
+
+.history > .title-box {
+    width: 40vw;
+    background: radial-gradient(circle at 100%, rgb(9, 12, 46), rgb(43, 26, 132) 50%, rgb(0, 255, 200) 75%, rgb(10, 4, 55) 75%);
+}
+
+.history > .title-box > h1 {
+    color: white;
+    position: relative;
+    top: 30%;
+    margin-left: 14vh;
+}
+
+.history > .content-box {
+    width: 60vw;
+}
+
+.history > .content-box > .story-card {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.history > .content-box > .story-card > img {
+    width: 18vh;
+    margin: 0 4vh;
+}
