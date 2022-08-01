@@ -1,4 +1,4 @@
-.intro {
+#intro {
   background-image: url("../../assets/pics/intro.jpg");
   height: 100vh;
   display: flex;
@@ -10,36 +10,36 @@
   background-size: cover;
 }
 
-.intro > .title {
+#intro > .title {
     position: relative;
     top: 35px;
     height: 250px;
 }
 
-.intro > .title > h1 {
+#intro > .title > h1 {
     font-size: 76px;
     color: rgb(255, 255, 255);
     margin-bottom: 0
 }
 
-.intro > .title > p {
+#intro > .title > p {
     font-size: 21px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
-.intro > .info {
+#intro > .info {
     height: 300px;
     position: relative;
     top: 300px;
 }
 
-.intro > .info > p {
+#intro > .info > p {
     font-size: 32px;
     color: white;
 }
 
-.intro > .info > h3 {
+#intro > .info > h3 {
     font-size: 42px;
     color: white;
     text-align: center;

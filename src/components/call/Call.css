@@ -1,0 +1,17 @@
+#call {
+    height: 40vh;
+    background: url('./galaxy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#call > h1,
+#call > h3,
+#call > h2 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 15vh;
+}

@@ -1,33 +1,47 @@
-.history {
+#history {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
     position: relative;
 }
 
-.history > .title-box {
+#history > .title-box {
     width: 40vw;
     background: radial-gradient(circle at 100%, rgb(9, 12, 46), rgb(43, 26, 132) 50%, rgb(0, 255, 200) 75%, rgb(10, 4, 55) 75%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.history > .title-box > h1 {
+#history > .title-box > h1 {
     color: white;
     position: relative;
     top: 30%;
     margin-left: 14vh;
 }
 
-.history > .content-box {
+#history > .content-box {
     width: 60vw;
+    background: url('./cosmos.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.history > .content-box > .story-card {
+#history > .content-box > .story-card {
     margin-top: 6vh;
     display: flex;
     flex-direction: row;
 }
 
-.history > .content-box > .story-card > img {
+#history > .content-box > .story-card > img {
     width: 18vh;
     margin: 0 4vh;
+}
+
+#history > .content-box > .story-card > .card-text > h3,
+#history > .content-box > .story-card > .card-text > p {
+    color: white;
 }

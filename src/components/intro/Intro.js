@@ -3,7 +3,7 @@ import React from 'react'
 
 function Intro() {
   return (
-    <div className="intro">
+    <div id="intro">
       <div className="title">
         <h1>Social Clusters Web</h1>
         <p>International Software Provider/Developer</p>

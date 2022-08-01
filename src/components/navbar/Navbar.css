@@ -1,4 +1,45 @@
-.navbar {
-    height: 80px;
-    border-bottom: 1px solid #b3b3b3;
+#navbar {
+  background: url('../call/galaxy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed; 
+  display: flex;
+  flex-direction: row;
+  top: 0; 
+  height: 10vh;
+  width: 100%;
+  transition: top 0.3s; 
+  z-index: 10;
+}
+
+#navbar > img {
+  height: 8vh;
+  width: 8vh;
+  margin: auto 4vh;
+}
+
+#navbar > h2 {
+  margin-left: 2vw;
+  font-size: 4vh;
+  color: white;
+}
+
+#navbar > .options {
+  position: relative;
+  left: 25vw;
+}
+
+#navbar > .options > a {
+  float: left;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 16px;
+  margin: 0.6vw 2vw;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }

@@ -7,7 +7,7 @@ import web from './web-page.svg'
 
 function History() {
   return (
-    <div className="history">
+    <div id="history">
         <div className="title-box">
           <h1>How did we start?</h1>
         </div>

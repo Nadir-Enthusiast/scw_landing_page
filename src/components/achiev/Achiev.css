@@ -1,0 +1,66 @@
+.achievments {
+    height: 100vh;
+}
+
+.achievments > .title-text {
+    text-align: center;
+}
+
+.achievments > .achiev-card {
+    position: relative;
+    word-wrap: normal;
+    border-radius: 50%;
+}
+
+.achievments > .achiev-card > p,
+.achievments > .achiev-card > h2 {
+    text-align: center;
+    position: relative;
+}
+
+.achievments > .a-card-one {
+    height: 320px;
+    width: 320px;
+    left: 50px;
+    background: yellow;
+}
+
+.achievments > .a-card-one > h2 {
+    top: 25px;
+}
+
+.achievments > .a-card-one > p {
+    top: 50px;
+}
+
+.achievments > .a-card-two {
+    height: 520px;
+    width: 520px;
+    bottom: 250px;
+    left: 800px;
+    background: rgb(0, 255, 47);
+}
+
+.achievments > .a-card-two > h2 {
+    top: 25px;
+}
+
+.achievments > .a-card-two > p {
+    top: 180px;
+}
+
+.achievments > .a-card-thr {
+    height: 260px;
+    width: 260px;
+    left: 300px;
+    bottom: 500px;
+    background: rgb(196, 69, 255);
+}
+
+.achievments > .a-card-thr > h2 {
+    top: 25px;
+}
+
+.achievments > .a-card-thr > p {
+    top: 50px;
+}
