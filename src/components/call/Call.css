@@ -11,6 +11,7 @@
 #call > h3,
 #call > h2 {
     text-align: center;
+    text-shadow: 0.4vh 0.4vh 0.7vh #00ffe5;
     color: white;
     position: relative;
     top: 15vh;

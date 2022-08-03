@@ -1,9 +1,18 @@
 .achievments {
     height: 100vh;
+    background: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .achievments > .title-text {
     text-align: center;
+}
+
+.achievments > .title-text > h1 {
+    font-size: 5vh;
+    color: rgb(198, 198, 198);
+    text-shadow: 0.3vh 0.3vh #0d2154;
 }
 
 .achievments > .achiev-card {
@@ -15,52 +24,78 @@
 .achievments > .achiev-card > p,
 .achievments > .achiev-card > h2 {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
+    color: white;
+}
+
+.achievments > .achiev-card > p {
+    text-shadow: 0.2vh 0.2vh #9d00ff;
+}
+
+.achievments > .achiev-card > h2 {
+    text-shadow: 0.15vh 0.15vh #ffe100;
 }
 
 .achievments > .a-card-one {
-    height: 320px;
-    width: 320px;
-    left: 50px;
-    background: yellow;
+    height: 42vh;
+    width: 32vw;
+    left: 7vh;
+    background: url('./light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .achievments > .a-card-one > h2 {
     top: 25px;
+    font-size: 3.5vh;
 }
 
 .achievments > .a-card-one > p {
-    top: 50px;
+    top: 6vh;
+    width: 30vh;
+    font-size: 3.5vh;
 }
 
 .achievments > .a-card-two {
-    height: 520px;
-    width: 520px;
+    height: 67vh;
+    width: 67vh;
     bottom: 250px;
     left: 800px;
-    background: rgb(0, 255, 47);
+    background: url('./cosmos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .achievments > .a-card-two > h2 {
-    top: 25px;
+    top: 7vh;
+    font-size: 6vh;
 }
 
 .achievments > .a-card-two > p {
-    top: 180px;
+    top: 10vh;
+    width: 45vh;
+    font-size: 6vh;
 }
 
 .achievments > .a-card-thr {
-    height: 260px;
-    width: 260px;
-    left: 300px;
-    bottom: 500px;
-    background: rgb(196, 69, 255);
+    height: 34vh;
+    width: 34vh;
+    left: 37vh;
+    bottom: 64vh;
+    background: url('./earth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .achievments > .a-card-thr > h2 {
     top: 25px;
+    font-size: 3vh;
 }
 
 .achievments > .a-card-thr > p {
-    top: 50px;
+    top: 5vh;
+    width: 25vh;
+    font-size: 3vh;
 }

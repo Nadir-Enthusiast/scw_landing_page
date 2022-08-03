@@ -16,7 +16,9 @@
 }
 
 .mission > .title > h1 {
-    font-size: 42px;
+    font-size: 5.8vh;
+    color: #e9e9e9;
+    text-shadow: 0.4vh 0.4vh 0.7vh #20c200;
 }
 
 .mission > .goals > section {

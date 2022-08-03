@@ -19,6 +19,7 @@
 #services > .wrapper > p,
 #services > .wrapper > ul > li {
     color: white;
+    text-shadow: 0.3vh 0.3vh 0.5vh #ffee00;
 }
 
 #services > .wrapper > p {

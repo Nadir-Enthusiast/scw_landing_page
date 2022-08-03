@@ -4,12 +4,6 @@ import React from 'react'
 function Achiev() {
   return (
     <div className="achievments">
-        {/*
-         * title
-         * satisfy needs
-         * help people 
-         * make software
-         */}
         <div className="title-text">
           <h1>What did we achieve?</h1>
         </div>
